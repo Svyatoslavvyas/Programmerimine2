@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="NrnR3si-bqTuF7SAuXDq">
+    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="34AitJf98k4XEw-zuv_a-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-10" target="34AitJf98k4XEw-zuv_a-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-10" value="&lt;span class=&quot;hljs-keyword&quot;&gt;User&lt;/span&gt; Authentication     &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;      &lt;br/&gt;   &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;  (Login&lt;span class=&quot;hljs-operator&quot;&gt;/&lt;/span&gt;Registration &lt;span class=&quot;hljs-keyword&quot;&gt;system&lt;/span&gt;)  &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;       &lt;br/&gt;   &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;  &lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;User&lt;/span&gt; credentials &lt;span class=&quot;hljs-keyword&quot;&gt;are&lt;/span&gt; verified&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;        &lt;br/&gt;   &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;  &lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Users can be admins &lt;span class=&quot;hljs-keyword&quot;&gt;or&lt;/span&gt;     &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;        &lt;br/&gt;   &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;    regular users&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-12" target="34AitJf98k4XEw-zuv_a-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-12" value="Root Directory            &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;      (Main entry point &lt;span class=&quot;hljs-keyword&quot;&gt;of&lt;/span&gt; the &lt;span class=&quot;hljs-keyword&quot;&gt;system&lt;/span&gt;)    &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Users can log &lt;span class=&quot;hljs-keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;or&lt;/span&gt; register         &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Access folders &lt;span class=&quot;hljs-keyword&quot;&gt;and&lt;/span&gt; photos&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="380" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-14" target="34AitJf98k4XEw-zuv_a-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-14" target="34AitJf98k4XEw-zuv_a-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-14" value="&lt;h3&gt;&lt;strong&gt;Admin Dashboard&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Full control for admins&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Manage folders, subfolders&lt;/li&gt;&lt;li&gt;Add/edit users&lt;/li&gt;&lt;li&gt;Monitor activity and system usage&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-15" value="&lt;h3&gt;&lt;strong&gt;Regular User Dashboard&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Limited access for regular users&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;View personal folders&lt;/li&gt;&lt;li&gt;Upload photos&lt;/li&gt;&lt;li&gt;View photos and metadata (based on permissions)&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-16" target="34AitJf98k4XEw-zuv_a-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-16" target="34AitJf98k4XEw-zuv_a-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-16" value="&lt;h3&gt;&lt;strong&gt;Folder 1 (Folder name: Folder 1)&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Create subfolders&lt;/li&gt;&lt;li&gt;Upload photos&lt;/li&gt;&lt;li&gt;Manage permissions (read/write)&lt;/li&gt;&lt;li&gt;Assign roles for access&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-17" value="&lt;h3&gt;&lt;strong&gt;Photo 1 (Metadata)&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;: (Name of the photo)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: (Details about the photo)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User&lt;/strong&gt;: (User who uploaded the photo)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;GPS Coordinates&lt;/strong&gt;: (Latitude, Longitude) – if available&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Map&lt;/strong&gt;: Visible to logged-in users, showing photo location&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="440" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-18" target="34AitJf98k4XEw-zuv_a-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-18" target="34AitJf98k4XEw-zuv_a-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-18" value="&lt;h3&gt;&lt;strong&gt;Folder 2 (Folder name: Folder 2)&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Create subfolders&lt;/li&gt;&lt;li&gt;Upload photos&lt;/li&gt;&lt;li&gt;Manage permissions (read/write)&lt;/li&gt;&lt;li&gt;Assign user roles (read/write/no access)&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="590" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-19" value="&lt;h3&gt;&lt;strong&gt;Photo 2 (Metadata)&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;: (Name of the photo)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: (Details about the photo)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User&lt;/strong&gt;: (User who uploaded the photo)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;GPS Coordinates&lt;/strong&gt;: (Latitude, Longitude) – if available&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Map&lt;/strong&gt;: Not shown if no GPS coordinates&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="590" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-20" target="34AitJf98k4XEw-zuv_a-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-20" target="34AitJf98k4XEw-zuv_a-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-20" value="&lt;h3&gt;&lt;strong&gt;Folder Permissions&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Admins set permissions for folders and subfolders&lt;/li&gt;&lt;li&gt;Read/Write/No access levels for folders&lt;/li&gt;&lt;li&gt;User-level permissions for managing access&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="730" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-21" value="&lt;h3&gt;&lt;strong&gt;Folder 3 (Public)&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Public folder (read-only access for all users)&lt;/li&gt;&lt;li&gt;Anyone can access the photos and folders here&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="730" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-22" target="34AitJf98k4XEw-zuv_a-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-22" value="&lt;h3&gt;&lt;strong&gt;Photo Upload&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Users upload photos with metadata (Title, Description, GPS data)&lt;/li&gt;&lt;li&gt;Photos are initially stored on the server&#39;s hard drive&lt;/li&gt;&lt;li&gt;Admins can add, edit, or remove photos&lt;/li&gt;&lt;li&gt;If GPS data is available, a map marker is placed for logged-in users&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="870" width="755" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-23" target="34AitJf98k4XEw-zuv_a-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-23" value="&lt;h3&gt;&lt;strong&gt;Storage Location (Server Storage)&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Initial storage&lt;/strong&gt;: Photos are stored on the server’s hard drive temporarily&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Admin management&lt;/strong&gt;: Admin can organize, add, or delete photos&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Server hard drive&lt;/strong&gt;: Initial storage before migration to cloud&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1100" width="750" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-24" value="&lt;h3&gt;&lt;strong&gt;Cloud Storage&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Future migration&lt;/strong&gt;: Move photos to scalable cloud storage&lt;/li&gt;&lt;li&gt;Possible services: Amazon S3, Google Cloud, Azure, etc.&lt;/li&gt;&lt;li&gt;Photos are automatically or manually moved to cloud storage&lt;/li&gt;&lt;li&gt;Server’s hard drives are freed up for other purposes&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1340" width="750" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="34AitJf98k4XEw-zuv_a-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.78;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="34AitJf98k4XEw-zuv_a-21" target="34AitJf98k4XEw-zuv_a-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
