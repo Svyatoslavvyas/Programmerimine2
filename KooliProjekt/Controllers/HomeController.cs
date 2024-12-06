@@ -1,4 +1,4 @@
-﻿using KooliProjekt.Models;
+﻿using KooliProjekt.Models;  // Подключаем пространство имен с PagedResultBase
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -15,7 +15,16 @@ namespace KooliProjekt.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            // Создаем объект модели PagedResultBase с данными для пагинации
+            var model = new PagedResultBase
+            {
+                CurrentPage = 1,    // Текущая страница
+                PageCount = 5,      // Общее количество страниц
+                RowCount = 50       // Общее количество строк
+            };
+
+            // Передаем модель в представление
+            return View(model);
         }
 
         public IActionResult Privacy()

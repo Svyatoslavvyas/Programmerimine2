@@ -1,4 +1,5 @@
-using KooliProjekt.Data;
+﻿using KooliProjekt.Data;
+using KooliProjekt.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,6 +19,10 @@ namespace KooliProjekt
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            // Регистрация сервисов
+            builder.Services.AddScoped<ITodoListService, TodoListService>();
+
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
@@ -30,7 +35,6 @@ namespace KooliProjekt
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -42,10 +46,22 @@ namespace KooliProjekt
             app.UseAuthentication();
             app.UseAuthorization();
 
+            // Включаем маршруты
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
             app.MapRazorPages();
+
+            // Инициализация данных в базе данных только в режиме отладки
+#if DEBUG
+            using (var scope = app.Services.CreateScope())
+            using (var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>())
+            using (var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>())
+            {
+                context.Database.EnsureCreated();
+                SeedData.Generate(context, userManager);
+            }
+#endif
 
             app.Run();
         }

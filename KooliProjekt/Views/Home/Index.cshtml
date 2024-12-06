@@ -1,8 +1,49 @@
-﻿@{
+﻿@using KooliProjekt.Models  // Подключаем пространство имен, где находится PagedResultBase
+@model PagedResultBase  // Указываем, что модель для этого представления — это PagedResultBase
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="pagination-container">
+    <h3>Pagination Example</h3>
+
+    <div>
+        <p>Current Page: @Model.CurrentPage</p>
+        <p>Total Pages: @Model.PageCount</p>
+        <p>Total Rows: @Model.RowCount</p>
+        <p>Displaying rows from @Model.FirstRowOnPage to @Model.LastRowOnPage</p>
+    </div>
+
+    @* Создаем элементы для пагинации *@
+    @if (Model.PageCount > 1)
+    {
+        <ul class="pagination">
+            <li>
+                <a href="#">« First</a>  <!-- Ссылка на первую страницу -->
+            </li>
+            <li>
+                <a href="#">« Previous</a>  <!-- Ссылка на предыдущую страницу -->
+            </li>
+
+            @for (var i = 1; i <= Model.PageCount; i++)
+            {
+                <li class="@(i == Model.CurrentPage ? "active" : "")">
+                    <a href="#">@i</a>  <!-- Ссылки на страницы -->
+                </li>
+            }
+
+            <li>
+                <a href="#">Next »</a>  <!-- Ссылка на следующую страницу -->
+            </li>
+            <li>
+                <a href="#">Last »</a>  <!-- Ссылка на последнюю страницу -->
+            </li>
+        </ul>
+    }
 </div>
